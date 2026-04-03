@@ -4,8 +4,8 @@
 
 ##### 1) Implementing algorithms from scratch using NumPy, instead of simply importing them from TensorFlow and scikit-learn
 
-##### 2) Developing a strong mathematical understanding of how these algorithms work, alongside practicing Linear Algebra through applied learning using the book: (https://mml-book.github.io/book/mml-book.pdf
-) - Mathematics for Machine Learning
+##### 2) Developing a strong mathematical understanding of how these algorithms work, alongside practicing Linear Algebra through applied learning using the book: (https://mml-book.github.io/book/mml-book.pdf)
+- Mathematics for Machine Learning 
 
 ##### 3) The current focus is on optimizing the cost function using Gradient Descent and partial derivatives
 
