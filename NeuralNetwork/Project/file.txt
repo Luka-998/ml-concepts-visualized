@@ -1,0 +1,14 @@
+First version of simple NN from scracth.
+
+Next phase is making the code more robust, minimally hardcoded and scalable.
+
+Things to improve: 
+
+1. Adjust that a_in can work on the batch sample not only the sample of size (m,)
+
+2. Remove hardcoded code
+
+3. Implement MSE and gradient descent optimization
+
+---
+
