@@ -1,6 +1,7 @@
 # venv/
 env/
 .venv/
+.vscode
 
 # datasets
 *.csv
