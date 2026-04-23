@@ -6,3 +6,7 @@ env/
 # datasets
 *.csv
 *.zip
+
+# pycache
+__pycache__
+__*
