@@ -1,0 +1,39 @@
+# Coding helper functions as class methods
+import math
+import numpy as np
+
+class Scaler():
+    def __init__(self):
+        pass
+    def fit(self,x):
+        self.x=x
+        m,n = self.x.shape
+
+        meanz = np.zeros(n,)
+        stdz = np.zeros(n,)
+        
+        for i in range(m):
+            for j in range(n):
+                meanz[j] += self.x[i][j]
+        meanz = meanz/m
+        self.meanz=meanz
+        
+        for i in range(m):
+            for j in range(n):
+                stdz[j] += (self.x[i,j]-meanz[j])**2
+        
+        stdz = stdz/m + 1*np.exp(-8)
+        stdz = np.sqrt(stdz)
+        self.stdz=stdz
+
+
+
+    def transform(self,x_new):
+        res = (x_new - self.meanz) / self.stdz
+        return res
+
+
+if __name__ == "__main__":
+    print("using file as main")
+    scaler = Scaler()
+    
