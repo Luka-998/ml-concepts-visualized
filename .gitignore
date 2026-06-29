@@ -2,7 +2,7 @@
 env/
 .venv/
 .vscode
-
+venv_ml/
 # datasets
 *.csv
 *.zip
