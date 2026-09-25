@@ -1,6 +1,7 @@
 # venv/
 env/
 .venv/
+venv1/
 .vscode
 venv_ml/
 # datasets
